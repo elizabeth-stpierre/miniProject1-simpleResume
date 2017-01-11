@@ -69,7 +69,17 @@
 
 
 body{
-    font-family: 'Lato', sans-serif;
-    color:#747704;
+    /* I changed the font-family to 'Poppins', which was originally 'Lato'.
+    I did this by deleting only the 'Lato' section in the already existing font-family property and replacing it with 'Poppins'.
+    I changed this so that it would be easier to read for more users. */
+    font-family: 'Poppins', sans-serif;
+    /* Changed color from #747704 to #415577.
+    I changed it by clicking the box that contains the existing color that resides next to the line number.
+    I changed this because it seemed to match the background color better. */
+    color: #415577;
     font-weight: 300;
+    /* Added aliceblue background-color.
+    I changed it by typing background-color into the body selector in the css tab.
+    I made this addition so that the page would seem more appealing and attract a user. */
+    background-color: aliceblue;
 }
